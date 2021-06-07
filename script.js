@@ -28,16 +28,16 @@ function imageAdd(img) {
 imgInput.addEventListener('change', imageAdd);
 
 function borderChanger(pressedButton) {
-const button = pressedButton.target;
-if (button === buttonFire){
-  memeContainer.style.border = '3px dashed red';
-}
-if (button === buttonWater){
-  memeContainer.style.border = '5px double blue';
-}
-if (button === butttonEarth){
-  memeContainer.style.border = '6px groove green';
-}
+  const button = pressedButton.target;
+  if (button === buttonFire) {
+    memeContainer.style.border = '3px dashed red';
+  }
+  if (button === buttonWater) {
+    memeContainer.style.border = '5px double blue';
+  }
+  if (button === butttonEarth) {
+    memeContainer.style.border = '6px groove green';
+  }
 }
 
 buttonFire.addEventListener('click', borderChanger);
