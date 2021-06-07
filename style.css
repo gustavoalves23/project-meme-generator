@@ -19,3 +19,23 @@
   font-size: 30px;
   color: white;
 }
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
+
+#sample-images img {
+  width: 100px;
+}
+
+#sample-images img:hover {
+  border: 2px solid red;
+}
